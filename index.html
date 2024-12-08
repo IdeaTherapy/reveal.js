@@ -62,6 +62,11 @@
 			[class*="bg-"] {
 				background-color: inherit;
 			}
+			
+			/* Add this new style for figure captions */
+			.reveal figcaption {
+				font-size: large; /* relative to parent element */
+			}
 		</style>
 		<!-- Theme used for syntax highlighted code -->
 		<!-- <link rel="stylesheet" href="plugin/highlight/monokai.css"> -->
@@ -96,14 +101,32 @@
 					<div class="container">
 						<div class="flex flex-col gap-4 justify-between min-h-[550px]">
 							<div class="text-gray-700">
-								<h1 class="text-4xl font-bold text-gray-900 !mb-10">خود ارجاعی (Self-Referencing)
-								</h1>
+								<h1 class="text-4xl font-bold text-gray-900 !mb-10 !mt-20">خود ارجاعی (Self-Referencing)</h1>
+							</div>
+							<div class="flex items-center">
+								<figure class="text-center w-full">
+									<img src="./assets/img/self_ref.png" alt="Image" class="mx-auto">
+									<figcaption class="text-gray-700 mt-2">
+										Ouroboros
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section></section>
+					<div class="container mx-auto p-8 h-full w-full">
+						<div class="flex flex-row gap-4 justify-between items-center h-full">
+							<div class="text-gray-700 mb-56">
+								<h1 class="text-9xl font-bold text-gray-900 mb-20">تاریخ خود ارجاعی</h1>
 								<ul>
-									
+									<li>آیتم ۱</li>
+									<li>آیتم ۲</li>
+									<li>آیتم ۳</li>
 								</ul>
 							</div>
-							<div class=" flex items-center">
-								<img src="./assets/img/self_ref.png" alt="Image" class="mx-auto">
+							<div class="flex items-center">
+								<img src="./assets/img/self_ref.png" alt="Image">
 							</div>
 						</div>
 					</div>
